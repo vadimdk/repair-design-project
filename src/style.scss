@@ -1,0 +1,48 @@
+  $widthmain: 1440px;
+  $colorblack: #131313;
+  $colorwhite: #fcfcfc;
+
+@media screen and (max-width: 1440px) {
+    body {
+      background-color: $colorwhite;
+    }
+
+    header {
+      background: $colorblack;
+      width: $widthmain;
+      height: 838px;
+    }
+
+    .first_block {
+      background: $colorwhite;
+      width: $widthmain;
+      height: 2663px;
+
+    }
+
+    .second_block {
+      width: $widthmain;
+      background: $colorwhite;
+      height: 1688px;
+    }
+
+    .third_block {
+      width: $widthmain;
+      background: $colorblack;
+      height: 1615px;
+
+    }
+
+    footer {
+      background: grey;
+      height: 131px;
+      width: $widthmain;
+    }
+  }
+  
+  /* On screens that are 375px or less, set the background color to olive */
+  @media screen and (max-width: 375px) {
+    body {
+      background-color: olive;
+    }
+  }
